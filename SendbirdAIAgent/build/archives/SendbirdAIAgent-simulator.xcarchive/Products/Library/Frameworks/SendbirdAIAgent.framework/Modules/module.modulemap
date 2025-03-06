@@ -1,6 +1,0 @@
-framework module SendbirdAIAgent {
-  umbrella header "SendbirdAIAgent.h"
-  export *
-
-  module * { export * }
-}

@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "SendbirdAIAgent",
             url: "https://github.com/tezpark/sub-module-test-ios/raw/netflix/1.0.0/Frameworks/SendbirdAIAgent.xcframework.zip",
-            checksum: "e59331148196e4410e08ac7fbe5d5ceb539a57b408b6508205d200f34d8e3481"
+            checksum: "063642a8c4389d1d071ef4a84e4ee8dd739d991dc6a6a8d2412fee4de4a7d4d4"
         )
     ]
 )
