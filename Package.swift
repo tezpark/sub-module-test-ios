@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         // Add GitHub repository dependency
-        .package(name: "AIAgent", url: "https://github.com/tezpark/module-test-ios.git", from: "1.0.9")
+        .package(name: "AIAgentCore", url: "https://github.com/tezpark/module-test-ios.git", from: "1.0.9")
     ],
     targets: [
         .binaryTarget(
