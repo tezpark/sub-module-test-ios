@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "AIAgent",
+        "package": "AIAgentCore",
         "repositoryURL": "https://github.com/tezpark/module-test-ios.git",
         "state": {
           "branch": null,
-          "revision": "d6171ab3babd407a063d6804f1ef6dcf2b7c09af",
-          "version": "1.0.9"
+          "revision": "b0eba59d6b7cff31ee497eee2bcfd51cfe7a3506",
+          "version": "1.0.10"
         }
       }
     ]
