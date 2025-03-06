@@ -2,23 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "AIAgent",
+    name: "SendbirdAIAgent",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "AIAgentCore", targets: ["AIAgentCore"]),
         .library(name: "MainModule", targets: ["MainModule"])
     ],
-    dependencies: [],
+    dependencies: [
+        // Add GitHub repository dependency
+        .package(name: "AIAgentCore", url: "https://github.com/tezpark/module-test-ios.git", from: "1.0.9")
+    ],
     targets: [
         .binaryTarget(
-            name: "AIAgentCore",
-            url: "https://github.com/tezpark/module-test-ios/releases/download/1.0.8/AIAgentCore.xcframework.zip",
-            checksum: "90ac08eb829dcb25b459f4e0a49bb4164a2eeb13ae096fc872d1edd437d79fe7"
-        ),
-        .target(
-            name: "MainModule",
-            dependencies: ["AIAgentCore"],
-            path: "./MainModule/Sources"
+            name: "SendbirdAIAgent",
+            url: "https://github.com/tezpark/sub-module-test-ios/raw/netflix/1.0.0/Frameworks/SendbirdAIAgent.xcframework.zip",
+            checksum: "e59331148196e4410e08ac7fbe5d5ceb539a57b408b6508205d200f34d8e3481"
         )
     ]
 )

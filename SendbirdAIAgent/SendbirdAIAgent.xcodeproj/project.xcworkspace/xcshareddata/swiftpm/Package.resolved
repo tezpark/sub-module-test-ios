@@ -1,0 +1,15 @@
+{
+  "originHash" : "79e57319bf450f32291f61b8b926fd495e38e22a8b8bda57b4cac01f82a8e68d",
+  "pins" : [
+    {
+      "identity" : "module-test-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tezpark/module-test-ios",
+      "state" : {
+        "revision" : "d6171ab3babd407a063d6804f1ef6dcf2b7c09af",
+        "version" : "1.0.9"
+      }
+    }
+  ],
+  "version" : 3
+}
