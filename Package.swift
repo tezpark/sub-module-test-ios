@@ -5,7 +5,7 @@ let package = Package(
     name: "SendbirdAIAgent",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "MainModule", targets: ["MainModule"])
+        .library(name: "SendbirdAIAgent", targets: ["SendbirdAIAgent"])
     ],
     dependencies: [
         // Add GitHub repository dependency
