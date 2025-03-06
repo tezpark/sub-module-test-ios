@@ -14,7 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SendbirdAIAgent",
-            path: "Frameworks/SendbirdAIAgent.xcframework.zip"
+            url: "https://github.com/tezpark/sub-module-test-ios/raw/tez/Frameworks/SendbirdAIAgent.xcframework.zip",
+            checksum: "1cc07e389c8142b888917c069a997754f10ae12bec74bc192626edf2896dca22"
         ),
         .target(
             name: "SendbirdAIAgentSupport",
