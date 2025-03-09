@@ -1,16 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "AIAgentCore",
-        "repositoryURL": "https://github.com/tezpark/module-test-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "53b443bae353903f10c0313dba6a912b72c410f6",
-          "version": "1.0.11"
-        }
+  "originHash" : "c36046e6c67731d1fc589d3ed5fe190bb3b1f6cf25b822d87dbd7d2cbd0e0f96",
+  "pins" : [
+    {
+      "identity" : "module-test-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tezpark/module-test-ios.git",
+      "state" : {
+        "revision" : "348461e7b3a9dd0a094ae5b9baa984c1c5386e21",
+        "version" : "1.0.14"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }
