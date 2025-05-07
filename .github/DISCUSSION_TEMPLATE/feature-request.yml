@@ -1,0 +1,30 @@
+name: Feature Request
+description: 제안하고 싶은 새로운 기능이 있다면 이 양식을 사용하세요!
+labels: [feature-request]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙋 기능 제안하기
+
+  - type: input
+    id: title
+    attributes:
+      label: 제목
+      placeholder: 예: 다크모드 추가
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 설명
+      placeholder: 어떤 기능이 왜 필요한지 설명해주세요.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위
+      options:
+        - 낮음
+        - 보통
+        - 높음
