@@ -1,21 +1,50 @@
 title: "[General] "
-labels: ["General Introduction"]
+labels: ["Conversation"]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
+        Explain customization summary
+  - type: input
+    id: summary
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: Summary
+      description: "Please provide a short description of what customization it is."
+    validations:
+      required: true
+  - type: textarea
+    id: guide-snippet
+    attributes:
+      label: Guide & Snippet
+      description: "Customization 가이드와 스니펫을 넣어주세요. 플랫폼별 섹션에 입력하세요.(먼저 작성하는 플랫폼은 자신의 플랫폼만 채우고 나머지는 제거하지 마세요)"
       value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
+        <details>
+        <summary>iOS</summary>
+        ### You can add a header
+        You can add text within a collapsed section.
+        ```swift
+           puts "Hello World"
+        ```
+        </details>
+
+        <details>
+        <summary>Android</summary>
+        ### You can add a header
+        You can add text within a collapsed section.
+        ```swift
+           puts "Hello World"
+        ```
+        </details>
+
+
+        <details>
+        <summary>JS</summary>
+        ### You can add a header
+        You can add text within a collapsed section.
+        ```swift
+           puts "Hello World"
+        ```
+        </details>
     validations:
       required: true
   - type: markdown
