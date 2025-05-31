@@ -91,10 +91,10 @@ body:
     attributes:
       label: Screenshots
       description: "스크린샷이 있다면 추가해주세요"
-      placeholder: |
+      placeholder: "
         |**As-is**|**To-be**|
         |---|---|
-        |<img src="" width="50%" height="50%" />|<img src="" width="50%" height="50%" />|
+        |<img src="" width="50%" height="50%" />|<img src="" width="50%" height="50%" />|"
     validations:
       required: false
 
