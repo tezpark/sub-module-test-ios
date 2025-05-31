@@ -23,12 +23,12 @@ body:
         <details>
         <summary>iOS</summary>
         
-        #### You can add a header
-        
-        You can add text within a collapsed section.
+        #### Header
+
+        - Description
         
         ```swift
-           puts "Hello World"
+           // code block
         ```
         
         </details>
@@ -36,12 +36,12 @@ body:
         <details>
         <summary>Android</summary>
         
-        #### You can add a header
-        
-        You can add text within a collapsed section.
+        #### Header
+
+        - Description
         
         ```kotlin
-           puts "Hello World"
+           // code block
         ```
         
         </details>
@@ -50,12 +50,12 @@ body:
         <details>
         <summary>iOS</summary>
         
-        #### You can add a header
+        #### Header
+
+        - Description
         
-        You can add text within a collapsed section.
-        
-        ```JS
-           puts "Hello World"
+        ```js
+           // code block
         ```
         
         </details>
@@ -67,7 +67,7 @@ body:
     attributes:
       label: Reference
       description: 참고할만한 link 가 있으면 추가
-      placeholder: "[TITLE](Link)"
+      placeholder: "- [TITLE](Link)"
     validations:
       required: false
   
