@@ -1,10 +1,11 @@
-title: "[General] "
+title: "[Conversation] "
 labels: ["Conversation"]
 body:
   - type: markdown
     attributes:
       value: |
         Explain customization summary
+  
   - type: input
     id: summary
     attributes:
@@ -12,6 +13,7 @@ body:
       description: "Please provide a short description of what customization it is."
     validations:
       required: true
+  
   - type: textarea
     id: guide-snippet
     attributes:
@@ -20,65 +22,64 @@ body:
       value: |
         <details>
         <summary>iOS</summary>
-        ### You can add a header
+        
+        #### You can add a header
+        
         You can add text within a collapsed section.
+        
         ```swift
            puts "Hello World"
         ```
+        
         </details>
 
         <details>
         <summary>Android</summary>
-        ### You can add a header
+        
+        #### You can add a header
+        
         You can add text within a collapsed section.
-        ```swift
+        
+        ```kotlin
            puts "Hello World"
         ```
+        
         </details>
 
 
         <details>
-        <summary>JS</summary>
-        ### You can add a header
+        <summary>iOS</summary>
+        
+        #### You can add a header
+        
         You can add text within a collapsed section.
-        ```swift
+        
+        ```JS
            puts "Hello World"
         ```
+        
         </details>
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
+  
   - type: input
-    id: has-id
+    id: reference
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+      label: Reference
+      description: 참고할만한 link 가 있으면 추가
+      placeholder: "[TITLE](Link)"
     validations:
-      required: true
-  - type: dropdown
-    id: download
+      required: false
+  
+  - type: textarea
+    id: screenshots
     attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
+      label: Screenshots
+      description: "스크린샷이 있다면 추가해주세요"
       value: |
-        ### The thrilling conclusion
-        _to our template_
+        |**As-is**|**To-be**|
+        |---|---|
+        |<img src="" width="50%" height="50%" />|<img src="" width="50%" height="50%" />|
+    validations:
+      required: false
+
