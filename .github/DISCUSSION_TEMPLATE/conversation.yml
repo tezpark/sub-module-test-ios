@@ -35,7 +35,7 @@ body:
     validations:
       required: false
 
-- type: textarea
+  - type: textarea
     id: guide-snippet-android
     attributes:
       label: Guide & Snippet (Android)
@@ -56,7 +56,7 @@ body:
     validations:
       required: false
 
-- type: textarea
+  - type: textarea
     id: guide-snippet-js
     attributes:
       label: Guide & Snippet (JS)
