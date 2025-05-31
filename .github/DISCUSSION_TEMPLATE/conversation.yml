@@ -7,7 +7,7 @@ body:
       value: |
         Explain the customization summary
 
-- type: textarea
+  - type: textarea
     id: versions
     attributes:
       label: Versions
