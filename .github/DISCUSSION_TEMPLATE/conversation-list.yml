@@ -2,7 +2,7 @@ title: "How to custom... "
 labels: ["🎨 Conversation", "🎨 Conversation List", "🎨 Common", "🎨 Initial route", "🎨 Launcher"]
 
 body:
-  - type: textarea
+  - type: markdown
     id: versions
     attributes:
       label: Versions
