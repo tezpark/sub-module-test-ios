@@ -7,7 +7,7 @@ body:
     attributes:
       label: Versions
       description: "가이드를 작성할때 사용한 SDK 버전 정보를 입력해주세요"
-      value: <
+      value:
         <!-- iOS Version -->
         <!--[![Languages](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)![Version](https://img.shields.io/badge/1.0.0-grey.svg?style=flat-square)](https://github.com/sendbird/sendbird-ai-agent-messenger-ios/releases)-->  
         <!-- Android Version -->
